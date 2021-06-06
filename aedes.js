@@ -74,6 +74,8 @@ function Aedes (opts) {
   this.authorizeForward = opts.authorizeForward
   this.published = opts.published
 
+  this.realPublished = opts.realPublished  
+
   this.decodeProtocol = opts.decodeProtocol
   this.trustProxy = opts.trustProxy
   this.trustedProxies = opts.trustedProxies
