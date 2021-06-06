@@ -36,6 +36,8 @@ const defaultOptions = {
 function Aedes (opts) {
   const that = this
 
+  console.log("CUSTOM AEDES!");
+
   if (!(this instanceof Aedes)) {
     return new Aedes(opts)
   }
